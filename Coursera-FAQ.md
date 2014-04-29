@@ -52,7 +52,7 @@ Please create a New Issue on our Course Repository page. [NEED MORE INFO HERE]
 
 swirl requires R version 3.0.2 or later. You can check your R version by typing `sessionInfo()` at the R prompt. If you have an older version of R, then please update it and reinstall swirl.
 
-### Swirl is running very slowly. What should I do?
+### Why is swirl running very slowly?
 
 Having a cluttered workspace can cause swirl to run slowly. Before you start swirl, please clear your workspace with `rm(list=ls())`. If swirl still runs slowly, you may want to close some other applications that you have open in the background.
 
@@ -60,11 +60,11 @@ Having a cluttered workspace can cause swirl to run slowly. Before you start swi
 
 [RUN R/RSTUDIO AS ADMINISTRATOR...]
 
-### I just submitted a swirl lesson for credit, but I'm not getting any points. What's wrong?
+### Why am I not getting any points for swirl lessons I've submitted?
 
 Make sure you submitted before the deadline. All deadlines are listed on the Programming Assignments page. 
 
-If you submitted before the deadline, then you probably skipped more than one question in the lesson. swirl should have warned you of this when you tried to submit:
+If you submitted before the deadline, then you probably skipped more than one question per lesson. swirl should have warned you of this when you tried to submit:
 
 ```
 | I'll try to tell Coursera you've completed this lesson now.
