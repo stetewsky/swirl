@@ -60,6 +60,8 @@ If you're on a work computer, sometimes the easiest solution is to try again fro
 
 ### I'm running Linux and can't install swirl. What am I doing wrong?
 
+Check out our [Installing swirl on Linux](https://github.com/swirldev/swirl/wiki/Installing-swirl-on-Linux) page.
+
 ***
 
 ### What is my Course ID?
