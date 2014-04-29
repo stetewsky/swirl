@@ -31,7 +31,7 @@ sessionInfo()
 ```
 install.packages("swirl")
 ```
-- Check that you got the most recent version of swirl
+- Check that you actually got the most recent version of swirl
 ```
 packageVersion("swirl")
 ```
