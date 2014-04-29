@@ -18,6 +18,8 @@ On the Programming Assignments page, there is one submit button for each part of
 
 Click the appropriate Submit button and upload the file that swirl created for you.
 
+***
+
 ### Why am I not able to install the swirl R package?
 
 Please do everything on this checklist:
@@ -36,6 +38,8 @@ install.packages("swirl")
 packageVersion("swirl")
 ```
 
+***
+
 ### Why am I not able to install the R Programming course from swirl?
 
 You are probably getting a message like this:
@@ -52,7 +56,11 @@ If you are sure that your internet connection is working (it must be if you're h
 
 If you're on a work computer, sometimes the easiest solution is to try again from a personal computer. Otherwise, you can install the course manually by following the special instructions for Linux users below.
 
+***
+
 ### I'm running Linux and can't install swirl. What am I doing wrong?
+
+***
 
 ### What is my Course ID?
 
@@ -62,35 +70,51 @@ After completing each swirl lesson, you'll be prompted for your Course ID. This 
 
 ![Course ID](https://dl.dropboxusercontent.com/u/14555519/Screenshot%202014-04-29%2013.48.28.png)
 
+***
+
 ### Where can I find my Submission Password?
 
 Your submission password is different from the password that you use to log in to the Coursera website. It can be found at the top of the Programming Assignments page.
 
 ![Submission password](https://dl.dropboxusercontent.com/u/14555519/Screenshot%202014-04-29%2013.51.13.png)
 
+***
+
 ### I have some ideas for how to make swirl even better. Who should I tell?
 
 Please follow the instructions here for making suggestions: http://swirlstats.com/help.html
+
+***
 
 ### Where can I find more information about swirl?
 
 Check out our website: http://swirlstats.com
 
+***
+
 ### I found a typo in one of the swirl lessons. Where should I report it?
 
 Please create a New Issue on our Course Repository page. [NEED MORE INFO HERE]
+
+***
 
 ### When I install swirl, R tells me that it's not available for R 3.0.x. What should I do?
 
 swirl requires R version 3.0.2 or later. You can check your R version by typing `sessionInfo()` at the R prompt. If you have an older version of R, then please update it and reinstall swirl.
 
+***
+
 ### Why is swirl running very slowly?
 
 Having a cluttered workspace can cause swirl to run slowly. Before you start swirl, please clear your workspace with `rm(list=ls())`. If swirl still runs slowly, you may want to close some other applications that you have open in the background.
 
+***
+
 ### When I install swirl, I get a warning that says `cannot remove prior installation of package ‘RCurl’. What should I do?
 
 [RUN R/RSTUDIO AS ADMINISTRATOR...]
+
+***
 
 ### Why am I not getting any points for swirl lessons I've submitted?
 
