@@ -38,9 +38,15 @@ Your submission password is different from the password that you use to log in t
 
 ### 6. Where can I find more information about swirl?
 
+Check out our website: http://swirlstats.com
+
 ### 7. I found a typo in one of the swirl lessons. Where should I report it?
 
+Please create a New Issue on our Course Repository page. [NEED MORE INFO HERE]
+
 ### 8. When I install swirl, R tells me that it's not available for R 3.0.x. What should I do?
+
+swirl requires R version 3.0.2 or later. You can check your R version by typing `sessionInfo()` at the R prompt. If you have an older version of R, then please update it and reinstall swirl.
 
 ### 9. Swirl is running very slowly. What should I do?
 
