@@ -112,7 +112,7 @@ Having a cluttered workspace can cause swirl to run slowly. Before you start swi
 
 ***
 
-### When I install swirl, I get a warning that says `cannot remove prior installation of package ‘RCurl’. What should I do?
+### When I install swirl, I get a warning that says `cannot remove prior installation of package ‘RCurl’`. What should I do?
 
 [RUN R/RSTUDIO AS ADMINISTRATOR...]
 
