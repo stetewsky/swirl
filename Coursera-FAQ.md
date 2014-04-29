@@ -22,6 +22,12 @@ Click the appropriate Submit button and upload the file that swirl created for y
 
 ### 3. What is my Course ID?
 
+After completing each swirl lesson, you'll be prompted for your Course ID. This helps us identify which session of the course you are enrolled in so that you get proper credit for your work.
+
+**For example**, if your course website is https://class.coursera.org/rprog-003, then your Course ID is `rprog-003`.
+
+![Course ID](https://dl.dropboxusercontent.com/u/14555519/Screenshot%202014-04-29%2013.48.28.png)
+
 ### 4. Where can I find my Submission Password?
 
 ### 5. I have some ideas for how to make swirl even better. Who should I tell?
