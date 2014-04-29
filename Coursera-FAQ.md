@@ -20,6 +20,22 @@ Click the appropriate Submit button and upload the file that swirl created for y
 
 ### Why am I not able to install swirl?
 
+### Why am I not able to install the R Programming course from swirl?
+
+You are probably getting a message like this:
+
+```
+| Sorry, but I'm unable to fetch ‘R Programming: The basics of
+| programming in R’ right now. Are you sure you have an internet
+| connection? If so, would you like to try again or visit the course
+| repository for instructions on how to install a course manually? Type 0
+| to exit.
+```
+
+If you are sure that your internet connection is working (it must be if you're here!), then you are probably behind a firewall or connected through a proxy server. 
+
+If you're on a work computer, sometimes the easiest solution is to try again from a personal computer. Otherwise, you can install the course manually by following the [instructions here](https://github.com/swirldev/swirl_courses#install-and-run-a-course-manually).
+
 ### I'm running Linux and can't install swirl. What am I doing wrong?
 
 ### What is my Course ID?
