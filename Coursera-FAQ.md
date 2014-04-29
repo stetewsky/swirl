@@ -41,7 +41,7 @@ You are probably getting a message like this:
 
 If you are sure that your internet connection is working (it must be if you're here!), then you are probably behind a firewall or connected through a proxy server. 
 
-If you're on a work computer, sometimes the easiest solution is to try again from a personal computer. Otherwise, you can install the course manually by following the [instructions here](https://github.com/swirldev/swirl_courses#install-and-run-a-course-manually).
+If you're on a work computer, sometimes the easiest solution is to try again from a personal computer. Otherwise, you can install the course manually by following the special instructions for Linux users below.
 
 ### I'm running Linux and can't install swirl. What am I doing wrong?
 
