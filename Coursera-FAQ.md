@@ -50,6 +50,8 @@ swirl requires R version 3.0.2 or later. You can check your R version by typing 
 
 ### 9. Swirl is running very slowly. What should I do?
 
+Having a cluttered workspace can cause swirl to run slowly. Before you start swirl, please clear your workspace with `rm(list=ls())`. If swirl still runs slowly, you may want to close some other applications that you have open in the background.
+
 ### 10. Something about firewalls, proxies, work computers, etc...
 
 ### 11. Warning: cannot remove prior installation of package ‘RCurl’ - Run as administrator
