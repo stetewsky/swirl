@@ -36,6 +36,8 @@ Your submission password is different from the password that you use to log in t
 
 ### 5. I have some ideas for how to make swirl even better. Who should I tell?
 
+Please follow the instructions here for making suggestions: http://swirlstats.com/help.html
+
 ### 6. Where can I find more information about swirl?
 
 Check out our website: http://swirlstats.com
