@@ -1,4 +1,4 @@
-### 1. Automatic submission failed. How do I submit manually?
+### Automatic submission failed. How do I submit manually?
 
 If automatic submission failed, then swirl created a file in your current working directory that can be used for manual upload. You should have seen something like this:
 
@@ -18,9 +18,11 @@ On the Programming Assignments page, there is one submit button for each part of
 
 Click the appropriate Submit button and upload the file that swirl created for you.
 
-### 2. I'm running Linux and can't install swirl. What am I doing wrong?
+### Why am I not able to install swirl?
 
-### 3. What is my Course ID?
+### I'm running Linux and can't install swirl. What am I doing wrong?
+
+### What is my Course ID?
 
 After completing each swirl lesson, you'll be prompted for your Course ID. This helps us identify which session of the course you are enrolled in so that you get proper credit for your work.
 
@@ -28,39 +30,39 @@ After completing each swirl lesson, you'll be prompted for your Course ID. This 
 
 ![Course ID](https://dl.dropboxusercontent.com/u/14555519/Screenshot%202014-04-29%2013.48.28.png)
 
-### 4. Where can I find my Submission Password?
+### Where can I find my Submission Password?
 
 Your submission password is different from the password that you use to log in to the Coursera website. It can be found at the top of the Programming Assignments page.
 
 ![Submission password](https://dl.dropboxusercontent.com/u/14555519/Screenshot%202014-04-29%2013.51.13.png)
 
-### 5. I have some ideas for how to make swirl even better. Who should I tell?
+### I have some ideas for how to make swirl even better. Who should I tell?
 
 Please follow the instructions here for making suggestions: http://swirlstats.com/help.html
 
-### 6. Where can I find more information about swirl?
+### Where can I find more information about swirl?
 
 Check out our website: http://swirlstats.com
 
-### 7. I found a typo in one of the swirl lessons. Where should I report it?
+### I found a typo in one of the swirl lessons. Where should I report it?
 
 Please create a New Issue on our Course Repository page. [NEED MORE INFO HERE]
 
-### 8. When I install swirl, R tells me that it's not available for R 3.0.x. What should I do?
+### When I install swirl, R tells me that it's not available for R 3.0.x. What should I do?
 
 swirl requires R version 3.0.2 or later. You can check your R version by typing `sessionInfo()` at the R prompt. If you have an older version of R, then please update it and reinstall swirl.
 
-### 9. Swirl is running very slowly. What should I do?
+### Swirl is running very slowly. What should I do?
 
 Having a cluttered workspace can cause swirl to run slowly. Before you start swirl, please clear your workspace with `rm(list=ls())`. If swirl still runs slowly, you may want to close some other applications that you have open in the background.
 
-### 10. Something about firewalls, proxies, work computers, etc...
+### Something about firewalls, proxies, work computers, etc...
 
-### 11. When I install swirl, I get a warning that says `cannot remove prior installation of package ‘RCurl’. What should I do?
+### When I install swirl, I get a warning that says `cannot remove prior installation of package ‘RCurl’. What should I do?
 
 [RUN R/RSTUDIO AS ADMINISTRATOR...]
 
-### 12. I just submitted a swirl lesson for credit, but I'm not getting any points. What's wrong?
+### I just submitted a swirl lesson for credit, but I'm not getting any points. What's wrong?
 
 Make sure you submitted before the deadline. All deadlines are listed on the Programming Assignments page. 
 
