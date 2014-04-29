@@ -30,6 +30,10 @@ After completing each swirl lesson, you'll be prompted for your Course ID. This 
 
 ### 4. Where can I find my Submission Password?
 
+Your submission password is different from the password that you use to log in to the Coursera website. It can be found at the top of the Programming Assignments page.
+
+![Submission password](https://dl.dropboxusercontent.com/u/14555519/Screenshot%202014-04-29%2013.51.13.png)
+
 ### 5. I have some ideas for how to make swirl even better. Who should I tell?
 
 ### 6. Where can I find more information about swirl?
