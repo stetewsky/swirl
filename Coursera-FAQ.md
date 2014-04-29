@@ -18,7 +18,14 @@ On the Programming Assignments page, there is one submit button for each part of
 
 Click the appropriate Submit button and upload the file that swirl created for you.
 
-### Why am I not able to install swirl?
+### Why am I not able to install the swirl R package?
+
+Please make sure you are doing everything on this checklist:
+
+- Make sure you have R version 3.0.2 or later
+- If you are running Linux, following [these instructions](https://github.com/swirldev/swirl/wiki/Coursera-FAQ#im-running-linux-and-cant-install-swirl-what-am-i-doing-wrong)
+- Install the most recent version of swirl
+- Check that you got the most recent version of swirl
 
 ### Why am I not able to install the R Programming course from swirl?
 
