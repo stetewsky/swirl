@@ -40,22 +40,36 @@ $ sudo apt-get install libcurl4-openssl-dev
 
 ***
 
-### Swirl installation for Linux Mint 16
+### Linux Mint 16
 
-Installation for other distributions in the Debian family should be similar.
+#### 1. Install build-essential (needed by gcc to compile R packages containing C/C++ code)
 
-1. Install build-essential (needed by gcc to compile Rpackages containing C/C++ code)
- * sudo apt-get install build-essential
-2. Install curl and libcurl4-openssl-dev (which will be needed for RCurl)
- * sudo apt-get install curl
- * sudo apt-get install libcurl4-openssl-dev
-3. Install R
- * sudo apt-get install r-base
-4. Install [RStudio](http://www.rstudio.com/ide/download/desktop) if you are going to use it.
- * http://www.rstudio.com/ide/download/desktop
-5. Install swirl from the R prompt
- * install.packages("swirl")
- * or install from RStudio’s graphical interface. Be sure that install dependencies is checked.
+```
+$ sudo apt-get install build-essential
+```
+
+#### 2. Install curl and libcurl4-openssl-dev (which will be needed for RCurl)
+
+``` 
+$ sudo apt-get install curl
+$ sudo apt-get install libcurl4-openssl-dev
+````
+
+#### 3. Install R
+
+```
+$ sudo apt-get install r-base-dev
+```
+
+#### 4. Install RStudio (optional, but recommended).
+
+Download from http://www.rstudio.com/ide/download/desktop.
+
+#### 5. Install swirl from the R prompt
+
+```
+> install.packages("swirl")
+```
 
 ***
 
