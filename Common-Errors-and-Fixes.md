@@ -119,6 +119,8 @@ Warning messages:
   installation of package ‘swirl’ had non-zero exit status
 ```
 
+swirl uses the RCurl package to download courses from the internet. RCurl requires certain system level software to be installed. Most of the time, it's there already, but sometimes (mainly on Linux) it's not. Visit our [Installing swirl on Linux](https://github.com/swirldev/swirl/wiki/Installing-swirl-on-Linux) page for help.
+
 ***
 
 ### Number 9
@@ -130,3 +132,5 @@ Warning messages:
 
 Warning: cannot remove prior installation of package ‘RCurl’
 ```
+
+This is symptomatic of permission restrictions, most likely on a work computer. Please try installing swirl on a personal computer or have a friendly chat with your computer person to find a workaround.
