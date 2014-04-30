@@ -40,7 +40,7 @@ $ sudo apt-get install libcurl4-openssl-dev
 
 ***
 
-## Swirl installation for Linux Mint 16
+### Swirl installation for Linux Mint 16
 
 Installation for other distributions in the Debian family should be similar.
 
@@ -59,8 +59,8 @@ Installation for other distributions in the Debian family should be similar.
 
 ***
 
-## Swirl installation from source package
-### --Courtesy Naseeruddin
+### Swirl installation from source package
+#### --Courtesy Naseeruddin
 
 1. Download tar.gz file from http://cran.rstudio.com/src/base/R-3/R-3.1.0.tar.gz
 2. change the directory where the tar file is and then untar file using the command   tar -zxvf R 3.1.0.targz
@@ -79,3 +79,6 @@ Now follow the steps to install swirl
 2. library(swirl)
 3. swirl()
 
+***
+
+Often, the most challenging part of getting swirl to work on Linux is getting a recent version of R. We've found this blog post to be a helpful resource for installing R on a variety of Linux platforms: http://www.jason-french.com/blog/2013/03/11/installing-r-in-linux/
