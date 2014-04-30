@@ -1,3 +1,5 @@
+swirl and its dependencies require R version 3.0.2 or later as well as a recent version of libcurl. This page is our attempt to collect any information that might be helpful to Linux users wanting to install swirl.
+
 ***
 
 ### Ubuntu and its derivatives
@@ -45,28 +47,6 @@ $ sudo apt-get install libcurl4-openssl-dev
 ```
 
 **NOTE: If you upgrading from an earlier version of R, you may need to do `install.packages("codetools")` before installing swirl.**
-
-***
-
-### Swirl installation from source package
-#### --Courtesy Naseeruddin
-
-1. Download tar.gz file from http://cran.rstudio.com/src/base/R-3/R-3.1.0.tar.gz
-2. change the directory where the tar file is and then untar file using the command   tar -zxvf R 3.1.0.targz
-3. ./configure
-4. make
-5. sudo make install
-6. cd bin
-7. ./R
-(Note: During the configure, it checks for dependencies of the libraries it needs. so if these dependencies are not met, it will take extra effort to install those dependencies. They may include libcurl4-openssl-dev, etc.)
-
-This version of R will be 3.1.0 (Now you can add this working directory to your path variable to access R from anywhere.)
-
-Now follow the steps to install swirl
-
-1. install.packages("swirl")
-2. library(swirl)
-3. swirl()
 
 ***
 
