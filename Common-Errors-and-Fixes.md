@@ -10,11 +10,13 @@ Error: could not find function "swirl"
 ```
 
 ```
+> install.packages("swirl")
 Warning in install.packages :
   package ‘swirl’ is not available (for R version 3.0.1)
 ```
 
 ```
+> install.packages("swirl")
 Warning message:
 In getDependencies(pkgs, dependencies, available, lib) :
   package 'swirl' is not available (for R version 2.14.1)
