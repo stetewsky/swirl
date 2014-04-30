@@ -23,7 +23,7 @@ Download from http://www.rstudio.com/ide/download/desktop.
 
 #### 4. Install libcurl.
 
-This is required for the RCurl package, which swirl uses to download courses from the internet.
+This is [required](http://www.omegahat.org/RCurl/FAQ.html) for the RCurl package, which swirl uses to download courses from the internet.
 
 ```
 $ sudo apt-get install libcurl4-openssl-dev
