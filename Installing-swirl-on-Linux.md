@@ -1,4 +1,4 @@
-### Swirl installation for Ubuntu (tested on 12.04 LTS - "Precise")
+### Ubuntu (tested on 12.04 LTS - "Precise")
 
 #### 1. Install the most recent version of R. If you have R installed already, go to #2.
 
