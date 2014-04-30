@@ -1,8 +1,8 @@
 ***
 
-### I'm getting an error message when I try to install swirl. What's wrong?
+### I'm getting an error message. What's wrong?
 
-[LINK TO COMMON ERRORS AND THEIR DIAGNOSES WIKI]
+Take a look at our [Common Errors and Fixes](https://github.com/swirldev/swirl/wiki/Common-Errors-and-Fixes) page.
 
 ***
 
@@ -42,11 +42,11 @@ You are probably getting a message like this:
 
 If you are sure that your internet connection is working (it must be if you're here!), then you are probably behind a firewall or connected through a proxy server. 
 
-If you're on a work computer, sometimes the easiest solution is to try again from a personal computer. Otherwise, you can install the course manually by following the special instructions for Linux users below.
+If you're on a work computer, sometimes the easiest solution is to try again from a personal computer. Otherwise, you can install the course manually by following the instructions [here](https://github.com/swirldev/swirl_courses#install-and-run-a-course-manually).
 
 ***
 
-### I'm running Linux and can't install swirl. What am I doing wrong?
+### I'm running Linux and can't get swirl to work correctly. What am I doing wrong?
 
 Check out our [Installing swirl on Linux](https://github.com/swirldev/swirl/wiki/Installing-swirl-on-Linux) page.
 
@@ -90,7 +90,7 @@ Please create a New Issue on our Course Repository page. [NEED MORE INFO HERE]
 
 ### When I install swirl, R tells me that it's not available for R 3.0.x. What should I do?
 
-swirl requires R version 3.0.2 or later. You can check your R version by typing `sessionInfo()` at the R prompt. If you have an older version of R, then please update it and reinstall swirl.
+swirl requires R version 3.0.2 or later. You can check your R version by typing `R.version.string` at the R prompt. If you have an older version of R, then please [update it](http://cran.rstudio.com/) and reinstall swirl.
 
 ***
 
