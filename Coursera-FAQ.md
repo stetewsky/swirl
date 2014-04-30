@@ -84,7 +84,14 @@ Check out our website: http://swirlstats.com
 
 ### I found a typo in one of the swirl lessons. Where should I report it?
 
-Please create a New Issue on our Course Repository page. [NEED MORE INFO HERE]
+Please create a [New Issue](https://github.com/swirldev/swirl_courses/issues/new) over at our [course repository](https://github.com/swirldev/swirl_courses). Please provide the following information:
+
+- Course name
+- Lesson name
+- The text containing the typo (copy and paste)
+- A brief description of the typo
+
+Thanks for letting us know!
 
 ***
 
