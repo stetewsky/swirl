@@ -1,1 +1,1 @@
-Welcome to the swirl wiki!
+Welcome to the swirl wiki! Click on the Pages tab above to view a table of contents.
