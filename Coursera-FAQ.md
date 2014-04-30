@@ -1,6 +1,6 @@
 ***
 
-I'm getting an error message when I try to install swirl. What's wrong?
+### I'm getting an error message when I try to install swirl. What's wrong?
 
 [LINK TO COMMON ERRORS AND THEIR DIAGNOSES WIKI]
 
