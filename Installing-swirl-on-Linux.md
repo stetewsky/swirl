@@ -59,4 +59,4 @@ $ sudo apt-get install libcurl4-openssl-dev
   - openSUSE: http://cran.r-project.org/bin/linux/suse/README.html
   - Ubuntu: http://cran.r-project.org/bin/linux/ubuntu/README.html
 
-- Official R Installation and Administration manual on [Installing R under Unix-alikes]
+- Official R Installation and Administration manual on [Installing R under Unix-alikes](http://cran.r-project.org/doc/manuals/R-admin.html#Installing-R-under-Unix_002dalikes)
