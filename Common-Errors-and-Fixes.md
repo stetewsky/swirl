@@ -4,19 +4,33 @@ This page lists all of the most common errors and warnings related to installing
 
 ***
 
+### Number 1:
+
 ```
 > library(swirl)
 Error in library(swirl) : there is no package called 'swirl'
 ```
 
+Did you install swirl with `install.packages("swirl")`? If so, then something went wrong with installation. There are a few reasons this might occur. 
+
+* Do you have R version 3.0.2 or later? This is required for the most recent version of swirl.
+* Are you behind a firewall or proxy server at work? If you have access to a personal computer, that's often the easiest fix.
+* Do you have full permissions on your computer? Again, using a personal computer may be your best bet.
+
 ***
+
+### Number 2
 
 ```
 > swirl()
 Error: could not find function "swirl"
 ```
 
+Did you load swirl with `library(swirl)`? The package must be loaded in order to access the `swirl()` function.
+
 ***
+
+### Number 3
 
 ```
 > install.packages("swirl")
@@ -24,7 +38,11 @@ Warning in install.packages :
   package ‘swirl’ is not available (for R version 3.0.1)
 ```
 
+You must have R version 3.0.2 or later in order to get the most recent version of swirl. If you have an older version of R, you must update it before installing swirl.
+
 ***
+
+### Number 4
 
 ```
 > install.packages("swirl")
@@ -33,14 +51,22 @@ In getDependencies(pkgs, dependencies, available, lib) :
   package 'swirl' is not available (for R version 2.14.1)
 ```
 
+This is the same problem as Number 3 above.
+
 ***
+
+### Number 5
 
 ```
 > install_from_swirl("R_Programming")
 Error in function (type, msg, asError = TRUE)  : couldn't connect to host
 ```
 
+This means your computer is not able to download a course from the internet. The most common cause of this is connecting through a firewall or proxy server. If you're on a work computer, you may want to try installing swirl on a personal computer. Otherwise, you can install courses manually by following [these instructions](https://github.com/swirldev/swirl_courses#install-and-run-a-course-manually).
+
 ***
+
+### Number 6
 
 ```
 > install_from_swirl("R_Programming")
@@ -48,15 +74,23 @@ Error in function (type, msg, asError = TRUE)  :
   Failed to connect to <IP_Address>: Network is unreachable
 ```
 
+Make sure you have an internet connection. If you do, then this is probably similar to Number 5.
+
 ***
+
+### Number 7
 
 ```
 > library(swirl)
 Error in loadNamespace(j <- i[[1L]], c(lib.loc, .libPaths()), versionCheck = vI[[j]]) : 
-  there is no package called ‘RCurl’
+  there is no package called ‘<package_name>’
 ```
 
+For some reason, your computer is not able to load one of the packages that swirl depends on. This error is usually symptomatic of permissions issues on a work computer. You should try installing swirl on a personal computer if you have one.
+
 ***
+
+### Number 8
 
 ```
 > install.packages("swirl")
@@ -84,6 +118,10 @@ Warning messages:
 3: In install.packages("swirl") :
   installation of package ‘swirl’ had non-zero exit status
 ```
+
+***
+
+### Number 9
 
 ```
 > install.packages("swirl")
