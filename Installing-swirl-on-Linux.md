@@ -1,6 +1,6 @@
 ### Ubuntu and its derivatives
 
-Tested on:
+These instructions have been successfully tested on:
 - Ubuntu 12.04 LTS (Precise Pangolin)
 - Linux Mint 16 (Petra)
 
