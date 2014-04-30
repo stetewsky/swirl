@@ -1,3 +1,43 @@
+### Swirl installation for Ubuntu (tested on 12.04 LTS - "Precise")
+
+#### 1. Install the most recent version of R. If you have R installed already, go to #2.
+
+**IMPORTANT: In the first line below, `precise/` should be replaced with the version of Ubuntu you are using. Other examples: `trusty/`, `saucy/`, `quantal/`, `lucid/`. More information [here](http://cran.r-project.org/bin/linux/ubuntu/README).**
+
+```
+$ sudo sh -c 'echo "deb http://cran.rstudio.com/bin/linux/ubuntu precise/" >> /etc/apt/sources.list'
+$ sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E084DAB9
+$ sudo apt-get update
+$ sudo apt-get install r-base-dev
+```
+
+#### 2. Confirm that you have R version 3.0.2 or later. If not, return to number 1.
+
+```
+$ R --version
+```
+
+#### 3. Get RStudio (optional, but recommended).
+
+Download from http://www.rstudio.com/ide/download/desktop.
+
+#### 4. Install libcurl (needed for RCurl package, a dependency of swirl).
+
+```
+$ sudo apt-get install libcurl4-openssl-dev
+```
+
+#### 5. From R or RStudio, install and run swirl.
+
+```
+> install.packages("swirl")
+> swirl()
+```
+
+**NOTE: If you upgrading from an earlier version of R, you may need to do `install.packages("codetools")` before installing swirl.**
+
+***
+
 ## Swirl installation for Linux Mint 16
 
 Installation for other distributions in the Debian family should be similar.
@@ -14,6 +54,8 @@ Installation for other distributions in the Debian family should be similar.
 5. Install swirl from the R prompt
  * install.packages("swirl")
  * or install from RStudio’s graphical interface. Be sure that install dependencies is checked.
+
+***
 
 ## Swirl installation from source package
 ### --Courtesy Naseeruddin
