@@ -1,3 +1,11 @@
+***
+
+I'm getting an error message when I try to install swirl. What's wrong?
+
+[LINK TO COMMON ERRORS AND THEIR DIAGNOSES WIKI]
+
+***
+
 ### Automatic submission failed. How do I submit manually?
 
 If automatic submission failed, then swirl created a file in your current working directory that can be used for manual upload. You should have seen something like this:
@@ -17,26 +25,6 @@ On the Programming Assignments page, there is one submit button for each part of
 ![Submit button](https://dl.dropboxusercontent.com/u/14555519/Screenshot%202014-04-07%2017.41.13.png)
 
 Click the appropriate Submit button and upload the file that swirl created for you.
-
-***
-
-### Why am I not able to install the swirl R package?
-
-Please do everything on this checklist:
-
-- Make sure you have R version 3.0.2 or later
-```
-sessionInfo()
-```
-- If you are running Linux, following [these instructions](https://github.com/swirldev/swirl/wiki/Installing-swirl-on-Linux)
-- Install the most recent version of swirl
-```
-install.packages("swirl")
-```
-- Check that you actually got the most recent version of swirl
-```
-packageVersion("swirl")
-```
 
 ***
 
