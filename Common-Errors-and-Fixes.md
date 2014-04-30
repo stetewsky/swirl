@@ -18,3 +18,9 @@ Warning in install.packages :
 > install_from_swirl("R_Programming")
 Error in function (type, msg, asError = TRUE)  : couldn't connect to host
 ```
+
+```
+> install_from_swirl("R_Programming")
+Error in function (type, msg, asError = TRUE)  : 
+  Failed to connect to <IP_Address>: Network is unreachable
+```
