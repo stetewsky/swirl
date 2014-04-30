@@ -2,7 +2,9 @@
 
 #### 1. Install the most recent version of R. If you have R installed already, go to #2.
 
-**IMPORTANT: In the first line below, `precise/` should be replaced with the version of Ubuntu you are using. Other examples: `trusty/`, `saucy/`, `quantal/`, `lucid/`. More information [here](http://cran.r-project.org/bin/linux/ubuntu/README).**
+**IMPORTANT: In the first line below, `precise/` should be replaced with the version of Ubuntu you are using. Other examples: `trusty/`, `saucy/`, `quantal/`, `lucid/`. If you're not sure which version you have, type `cat /etc/*release` at the command line.**
+
+Official source: http://cran.r-project.org/bin/linux/ubuntu/README
 
 ```
 $ sudo sh -c 'echo "deb http://cran.rstudio.com/bin/linux/ubuntu precise/" >> /etc/apt/sources.list'
