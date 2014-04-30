@@ -33,6 +33,10 @@ Error in loadNamespace(j <- i[[1L]], c(lib.loc, .libPaths()), versionCheck = vI[
 
 
 ```
+> install.packages("swirl")
+
+...
+
 * installing *source* package ‘RCurl’ ...
 ** package ‘RCurl’ successfully unpacked and MD5 sums checked
 checking for curl-config... no
