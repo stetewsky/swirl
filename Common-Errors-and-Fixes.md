@@ -15,6 +15,12 @@ Warning in install.packages :
 ```
 
 ```
+Warning message:
+In getDependencies(pkgs, dependencies, available, lib) :
+  package 'swirl' is not available (for R version 2.14.1)
+```
+
+```
 > install_from_swirl("R_Programming")
 Error in function (type, msg, asError = TRUE)  : couldn't connect to host
 ```
