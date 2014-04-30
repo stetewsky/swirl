@@ -96,7 +96,7 @@ swirl requires R version 3.0.2 or later. You can check your R version by typing 
 
 ### Why is swirl running very slowly?
 
-Having a cluttered workspace can cause swirl to run slowly. Before you start swirl, please clear your workspace with `rm(list=ls())`. If swirl still runs slowly, you may want to close some other applications that you have open in the background.
+A cluttered workspace can cause swirl to run slowly. Before you start swirl, please clear your workspace with `rm(list=ls())`. If swirl still runs slowly, you may want to close other applications that you have open in the background.
 
 ***
 
