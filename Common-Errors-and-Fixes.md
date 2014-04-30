@@ -1,5 +1,7 @@
 ***
 
+This page lists all of the most common errors and warnings related to installing and using the swirl R package. For each, we provide advice on what might be going wrong and how to fix the problem you're experiencing.
+
 ```
 > library(swirl)
 Error in library(swirl) : there is no package called 'swirl'
