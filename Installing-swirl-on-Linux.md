@@ -1,4 +1,8 @@
-### Ubuntu (tested on 12.04 LTS - "Precise")
+### Ubuntu and its derivatives
+
+Tested on:
+- Ubuntu 12.04 LTS (Precise Pangolin)
+- Linux Mint 16 (Petra)
 
 #### 1. Install the most recent version of R. If you have R installed already, go to #2.
 
@@ -39,39 +43,6 @@ $ sudo apt-get install libcurl4-openssl-dev
 ```
 
 **NOTE: If you upgrading from an earlier version of R, you may need to do `install.packages("codetools")` before installing swirl.**
-
-***
-
-### Linux Mint 16
-
-#### 1. Install build-essential (needed by gcc to compile R packages containing C/C++ code)
-
-```
-$ sudo apt-get install build-essential
-```
-
-#### 2. Install curl and libcurl4-openssl-dev (which will be needed for RCurl)
-
-``` 
-$ sudo apt-get install curl
-$ sudo apt-get install libcurl4-openssl-dev
-````
-
-#### 3. Install R
-
-```
-$ sudo apt-get install r-base-dev
-```
-
-#### 4. Install RStudio (optional, but recommended).
-
-Download from http://www.rstudio.com/ide/download/desktop.
-
-#### 5. Install swirl from the R prompt
-
-```
-> install.packages("swirl")
-```
 
 ***
 
