@@ -52,7 +52,7 @@ $ sudo apt-get install libcurl4-openssl-dev
 
 ### Other Resources
 
-- Often, the most challenging part of getting swirl to work on Linux is getting a recent version of R. We've found [this blog post](http://www.jason-french.com/blog/2013/03/11/installing-r-in-linux/) to be a helpful resource for installing R on a variety of Linux platforms.
+- Often, the most challenging part of getting swirl to work on Linux is getting a recent version of R. We've found [this blog post](http://www.jason-french.com/blog/2013/03/11/installing-r-in-linux/) to be a helpful resource for installing up-to-date versions of R on a variety of Linux platforms.
 
 - Official R installation docs for various Linux distributions:
   - Debian: http://cran.r-project.org/bin/linux/debian/
