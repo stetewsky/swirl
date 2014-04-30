@@ -24,3 +24,9 @@ Error in function (type, msg, asError = TRUE)  : couldn't connect to host
 Error in function (type, msg, asError = TRUE)  : 
   Failed to connect to <IP_Address>: Network is unreachable
 ```
+
+```
+> library(swirl)
+Error in loadNamespace(j <- i[[1L]], c(lib.loc, .libPaths()), versionCheck = vI[[j]]) : 
+  there is no package called ‘RCurl’
+```
