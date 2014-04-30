@@ -70,4 +70,11 @@ Now follow the steps to install swirl
 
 ### Other Resources
 
-**Often, the most challenging part of getting swirl to work on Linux is getting a recent version of R. We've found this blog post to be a helpful resource for installing R on a variety of Linux platforms: http://www.jason-french.com/blog/2013/03/11/installing-r-in-linux/**
+- Often, the most challenging part of getting swirl to work on Linux is getting a recent version of R. We've found [this blog post](http://www.jason-french.com/blog/2013/03/11/installing-r-in-linux/) to be a helpful resource for installing R on a variety of Linux platforms.
+
+- Official R installation docs for various Linux distributions:
+  - Debian: http://cran.r-project.org/bin/linux/debian/
+  - openSUSE: http://cran.r-project.org/bin/linux/suse/README.html
+  - Ubuntu: http://cran.r-project.org/bin/linux/ubuntu/README.html
+
+- Official R Installation and Administration manual on [Installing R under Unix-alikes]
