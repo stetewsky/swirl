@@ -11,7 +11,7 @@ $ sudo apt-get update
 $ sudo apt-get install r-base-dev
 ```
 
-#### 2. Confirm that you have R version 3.0.2 or later. If not, return to number 1.
+#### 2. Confirm that you have R version 3.0.2 or later. If not, return to #1.
 
 ```
 $ R --version
