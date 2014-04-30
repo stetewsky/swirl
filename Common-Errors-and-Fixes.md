@@ -80,3 +80,11 @@ Warning messages:
 3: In install.packages("swirl") :
   installation of package ‘swirl’ had non-zero exit status
 ```
+
+```
+> install.packages("swirl")
+
+[...skipping output to save space...]
+
+Warning: cannot remove prior installation of package ‘RCurl’
+```
