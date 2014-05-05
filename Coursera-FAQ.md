@@ -28,7 +28,7 @@ Click the appropriate Submit button and upload the file that swirl created for y
 
 ***
 
-### Why am I getting an old version of swirl even though I followed the instructions for installing the most recent version?
+### Why do I have an old version of swirl even though I followed the instructions for installing the most recent version?
 
 If you followed [these instructions](https://github.com/swirldev/swirl#installing-swirl-from-cran) for installing swirl from CRAN, then one of two things is preventing you from getting the most recent version.
 
