@@ -39,13 +39,13 @@ If you followed [these instructions](https://github.com/swirldev/swirl#installin
 
 ### Why am I not seeing the R Programming course in swirl?
 
-If you weren't prompted to install the R Programming course when you started swirl for the first time, then you must have an old version of swirl. See the answer to this question.
+If you weren't prompted to install the R Programming course when you started swirl for the first time, then you must have an old version of swirl. See the answer to [this question](https://github.com/swirldev/swirl/wiki/Coursera-FAQ#why-am-i-getting-an-old-version-of-swirl-even-though-i-followed-the-instructions-for-installing-the-most-recent-version).
 
 ***
 
 ### Why is swirl not asking me for my Coursera credentials when I complete a lesson?
 
-You must have an old version of swirl. See the answer to this question.
+You must have an old version of swirl. See the answer to [this question](https://github.com/swirldev/swirl/wiki/Coursera-FAQ#why-am-i-getting-an-old-version-of-swirl-even-though-i-followed-the-instructions-for-installing-the-most-recent-version).
 
 ***
 
