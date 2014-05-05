@@ -28,6 +28,15 @@ Click the appropriate Submit button and upload the file that swirl created for y
 
 ***
 
+### Why am I not seeing the R Programming course in swirl?
+
+If you weren't prompted to install the R Programming course when you started swirl for the first time, then you must have an old version of swirl. If you followed [these instructions](https://github.com/swirldev/swirl#installing-swirl-from-cran) for installing swirl from CRAN, then one of two things is preventing you from getting the most recent version.
+
+1. You have an old version of R. You must have R version 3.0.2 or later to install the most recent version of swirl. You can check what version of R you have by typing `R.version.string` at the prompt.
+2. Your default CRAN repository is out-of-date. You can check what CRAN repo you're using with `getOption("repos")`. We recommend using the RStudio CRAN repository. More info [here](http://blog.rstudio.org/2013/06/10/rstudio-cran-mirror/).
+
+***
+
 ### Why am I not able to install the R Programming course from swirl?
 
 You are probably getting a message like this:
