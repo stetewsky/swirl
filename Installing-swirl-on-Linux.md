@@ -43,6 +43,7 @@ $ sudo apt-get install libcurl4-openssl-dev
 
 ```
 > install.packages("swirl")
+> library(swirl)
 > swirl()
 ```
 
