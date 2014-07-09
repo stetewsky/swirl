@@ -134,3 +134,16 @@ Warning: cannot remove prior installation of package ‘RCurl’
 ```
 
 This is symptomatic of permission restrictions, most likely on a work computer. Please try installing swirl on a personal computer or have a friendly chat with your computer person to find a workaround.
+
+***
+
+### Number 10
+
+```
+Error in file(con, "w") : cannot open the connection
+In addition: Warning message:
+In file(con, "w") :
+  cannot open file 'rprog-005_Basic_Building_Blocks.txt': Permission denied
+```
+
+Anytime you see `Permission denied`, it probably means that you don't have full file permissions on your computer. If you are using Windows, you may need to right-click R/RStudio and select "Run as administrator". If you are on a work/school computer, you may need to try using swirl from a personal computer or talk to you sys admin person.
