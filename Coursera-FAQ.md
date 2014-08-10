@@ -116,9 +116,11 @@ Thanks for letting us know!
 
 ***
 
-### When I install swirl, R tells me that it's not available for R 3.0.x. What should I do?
+### When I install swirl, R tells me that it's not available for my version of R. What should I do?
 
-swirl requires R version 3.0.2 or later. You can check your R version by typing `R.version.string` at the R prompt. If you have an older version of R, then please [update it](http://cran.rstudio.com/) and reinstall swirl.
+swirl requires R version 3.0.2 or later. You can check your R version by typing `R.version.string` at the R prompt. If you have an older version of R, then please [update it](http://cran.rstudio.com/) and reinstall swirl. 
+
+If you have a recent version of R and you're still having this problem, then your CRAN mirror is probably out of date. You should change your CRAN mirror to the Cloud option via [these instructions](http://blog.rstudio.org/2013/06/10/rstudio-cran-mirror/).
 
 ***
 
