@@ -1,1 +1,1 @@
-Welcome to the swirl wiki!
+Welcome to the swirl wiki! This is where we collect information that is relevant to students, instructors, and contributors.
