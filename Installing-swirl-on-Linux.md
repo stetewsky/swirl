@@ -27,6 +27,8 @@ Most modern Linux distros recommend you not edit `/etc/apt/sources.list` directl
 $ sudo sh -c 'echo "deb http://cran.rstudio.com/bin/linux/ubuntu precise/" >> /etc/apt/sources.list.d/cran.list
 ```
 
+PS. Thanks [Charl](https://github.com/charl)
+
 #### 2. Confirm that you have R version 3.0.2 or later. If not, return to #1.
 
 ```
