@@ -21,7 +21,8 @@ $ sudo apt-get update
 $ sudo apt-get install r-base-dev
 ```
 **NOTE**
-Most modern Linux distros recommend you not edit `/etc/apt/sources.list` directly and rather place any additions you want to outlive a package update in `/etc/apt/sources.list.d`. With that in mind the command above should rather be:
+
+Most modern Linux distros recommend you not edit `/etc/apt/sources.list` directly and rather place any additions you want to outlive a package update in `/etc/apt/sources.list.d`. With that in mind a best-practices alternative to the command above would be:
 ```
 $ sudo sh -c 'echo "deb http://cran.rstudio.com/bin/linux/ubuntu precise/" >> /etc/apt/sources.list.d/cran.list
 ```
