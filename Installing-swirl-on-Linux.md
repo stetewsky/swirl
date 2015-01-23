@@ -20,6 +20,11 @@ $ sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E084DAB9
 $ sudo apt-get update
 $ sudo apt-get install r-base-dev
 ```
+**NOTE**
+Most modern Linux distros recommend you not edit `/etc/apt/sources.list` directly and rather place any additions you want to outlive a package update in `/etc/apt/sources.list.d`. With that in mind the command above should rather be:
+```
+$ sudo sh -c 'echo "deb http://cran.rstudio.com/bin/linux/ubuntu precise/" >> /etc/apt/sources.list.d/cran.list
+```
 
 #### 2. Confirm that you have R version 3.0.2 or later. If not, return to #1.
 
