@@ -24,8 +24,9 @@ $ sudo apt-get install r-base-dev
 
 Most modern Linux distros recommend you not edit `/etc/apt/sources.list` directly and rather place any additions you want to outlive a package update in the `/etc/apt/sources.list.d` directory. With that in mind a best-practices alternative to the command above would be:
 ```
-$ sudo sh -c 'echo "deb http://cran.rstudio.com/bin/linux/ubuntu precise/" >> /etc/apt/sources.list.d/cran.list
+$ sudo sh -c 'echo "deb http://cran.rstudio.com/bin/linux/ubuntu precise/" >> /etc/apt/sources.list.d/cran.list'
 ```
+Note also that using either of these instructions on a more modern distribution (e.g. Ubuntu 14.10, and probably 14.04) breaks the install, since the package at that source depends on libtiff4, but this has been removed (superseded by libtiff5). Happily, users can (and should) skip that step entirely, since a compatible package (R 3.1.1) is already included in that distribution.
 
 PS. Thanks [Charl](https://github.com/charl)
 
