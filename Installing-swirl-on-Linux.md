@@ -28,7 +28,7 @@ $ sudo sh -c 'echo "deb http://cran.rstudio.com/bin/linux/ubuntu precise/" >> /e
 ```
 Note also that using either of these instructions on a more modern distribution (e.g. Ubuntu 14.10, and probably 14.04) breaks the install, since the package at that source depends on libtiff4, but this has been removed (superseded by libtiff5). Happily, users can (and should) skip that step entirely, since a compatible package (R 3.1.1) is already included in that distribution.
 
-PS. Thanks [Charl](https://github.com/charl)
+PS. Thanks [Charl](https://github.com/charl) and [joegodbehere](https://github.com/joegodbehere)
 
 #### 2. Confirm that you have R version 3.0.2 or later. If not, return to #1.
 
