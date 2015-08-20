@@ -1,1 +1,1 @@
-# (Home)[home.html]
+# [Home](home.html)
