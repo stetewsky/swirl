@@ -48,6 +48,12 @@ This is [required](http://www.omegahat.org/RCurl/FAQ.html) for the RCurl package
 $ sudo apt-get install libcurl4-openssl-dev
 ```
 
+If you're installing on Linux Mint 17:
+
+```
+$ sudo apt-get install libcurl4-openssl-dev r-base-dev libxml2-dev
+```
+
 #### 5. From R or RStudio, install and run swirl.
 
 ```
