@@ -2,6 +2,11 @@
 
 As of January 2016 this page is changing rapidly to adapt to the new Coursera on-demand platform. If you are a Coursera student and you are having issues please report them by emailing us: info@swirlstats.com.
 
+---
+
+## Information below applies only to the session-based Coursera courses.
+
+---
 
 ***
 
