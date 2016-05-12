@@ -4,7 +4,7 @@ From the course home page navigate to Course Content, and then click on the swir
 
 ## What is the course ID for my course?
 
-Course IDs are not longer supported by Coursera. If you've at the end of a swirl lesson and you're being asked for your course ID, you have an old version of the course. You will need to reinstall the course and complete the lesson again in order to receive credit. 
+Course IDs are no longer supported by Coursera. If you've at the end of a swirl lesson and you're being asked for your course ID, you have an old version of the course. You will need to reinstall the course and complete the lesson again in order to receive credit. 
 
 ## Can I manually submit a file to Coursera for credit for completing a swirl lesson?
 
