@@ -1,4 +1,4 @@
-swirl and its dependencies require R version 3.0.2 or later as well as a recent version of libcurl. This page is our attempt to collect any information that might be helpful to Linux users wanting to install swirl.
+swirl and its dependencies require R version 3.1.0 or later as well as a recent version of libcurl. This page is our attempt to collect any information that might be helpful to Linux users wanting to install swirl.
 
 ***
 
