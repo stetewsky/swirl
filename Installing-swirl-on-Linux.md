@@ -30,7 +30,7 @@ Note also that using either of these instructions on a more modern distribution 
 
 PS. Thanks [Charl](https://github.com/charl) and [joegodbehere](https://github.com/joegodbehere)
 
-#### 2. Confirm that you have R version 3.0.2 or later. If not, return to #1.
+#### 2. Confirm that you have R version 3.1.0 or later. If not, return to #1.
 
 ```
 $ R --version
