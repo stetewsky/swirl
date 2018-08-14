@@ -1,0 +1,7 @@
+- Swirl creates and stores files and folders on a user's computer when installing new courses or to save a user's progress in a lesson. 
+    - Courses are installed in the directory that results from `system.file("Courses", package = "swirl")`
+    - User progress and logs are saved in the directory that results from `system.file("user_data", package = "swirl")`
+- If the user does not have write permissions, they can change the location of where swirl accesses this data.
+    - To set course installation location use: `swirl_options(swirl_courses_dir = file.path("some", "other", "directory"))`
+    - To set where user progress and logs are saved use: `swirl_options(swirl_data_dir = file.path("some", "other", "directory"))`
+- These options need to be set during every R session, therefore they should be added to the user's `.Rprofile`. You can find out more about R start-up and the `.Rprofile` file [here](https://github.com/HenrikBengtsson/startup).
