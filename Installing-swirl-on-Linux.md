@@ -84,3 +84,5 @@ $ sudo apt-get install libcurl4-openssl-dev r-base-dev libxml2-dev
 ***
 
 Fix for graphics not working on Ubuntu: https://gist.github.com/papas8105/2cbd941dceb1678918ea
+
+Also see this issue: https://github.com/swirldev/swirl/issues/498#issuecomment-292078652
